@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://happynewyeardiary.live/wp-content/uploads/2020/09/chinese-new-year-2021-images-768x527.jpg);
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+
+h1{
+   font-weight: bold;
+   font-size: 5rem;
+   margin-top: -3rem;
+   margin-bottom: 30rem;
+}
+
+.countdown-container{
+    display: flex;
+    
+}
+
+.big-text{
+    font-weight:bold;
+    font-size: 9rem;
+    line-height: 1;
+    margin: 0 5rem;
+} 
+
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1,5rem;
+}
