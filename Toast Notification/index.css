@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+}
+
+
+button{
+    background-color: rgb(77, 185, 152);
+    color: white;
+    font-family: inherit;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast{
+    background-color: rgb(223, 226, 10);
+    border-radius: 5px;
+    color:black;
+    padding:2rem;
+    margin:1rem;
+}

@@ -5,7 +5,7 @@
  
 
  
-   const newYears = "1 Jan 2021";
+   const newYears = "1 Jan 2022";
 
 
  function countdown() {

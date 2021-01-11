@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: rgb(218, 30, 30);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+.phone{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+.logo{
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+
+.logo h2{
+    font-weight: normal;
+    margin: 0;
+}
+
+.logo p{
+    color: rgb(61, 58, 58);
+    margin: 0;
+    font-weight: bold;
+}
+
+.carousel-container{
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 10rem;
+  
+}
+
+.carousel{
+    display: flex;
+    position:absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.slide{
+   
+   width: 100vw;
+   text-align: center;
+}
+
+.slide img{
+    height:400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.slide h1{
+    color: rgb(7, 2, 2);
+    font-size: 4rem;
+    margin-top: -2rem;
+}
+
+.slide a{
+    background-color: rgb(172, 6, 42);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+   
+ 
+.arrow{
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.9;
+    border: none;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.left-arrow{
+    left: 2rem;
+}
+
+.right-arrow{
+    right: 2rem;
+}

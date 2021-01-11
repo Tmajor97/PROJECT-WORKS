@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+h1{
+    color:rgb(8, 241, 210);
+    font-size: 10rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+form{
+    max-width: 100%;
+    margin: auto;
+    width: 400px;
+    box-shadow: 0 0.5px 10px rgb(81, 117, 223);
+}
+
+input{
+    padding: 1rem 2rem;
+    font-size:2rem;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0.5px 10px rgb(81, 117, 223);
+}
+
+.input::placeholder{
+    color:rgb(221, 197, 197);
+}
+
+.todos{
+    background-color: rgb(126, 209, 241);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.todos li{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-top:1px solid blanchedalmond;
+    cursor: pointer;
+}
+
+.todos li.completed {
+    text-decoration: line-through;
+    color: rgb(236, 226, 226);
+}
